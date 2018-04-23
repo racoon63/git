@@ -40,7 +40,7 @@ and create a new bare git by typing:
 git init --bare
 ```
 
-**STEP 3:**
+**STEP 4:**
 
 verify your remote repository on the git server. There will be none if you inititated a new one locally. When you cloned a remote repository there will appear a remote repoitory address like `origin git@github.$
 
@@ -48,7 +48,7 @@ verify your remote repository on the git server. There will be none if you initi
 git remote add origin git@github.com:racoon63/test.git
 ```
 
-**STEP 4:**
+**STEP 5:**
 
 create a post-receive bash script (without .sh at the end) that will be executed everytime we push something to our git repository
 
@@ -56,7 +56,7 @@ create a post-receive bash script (without .sh at the end) that will be executed
 nano /home/git/test_hook/hooks/post-receive
 ```
 
-**STEP 5:**
+**STEP 6:**
 
 add the following lines to the file:
 
@@ -67,7 +67,7 @@ target_branch="master"
 GIT_WORK_TREE=$working_tree git checkout $target_branch -f
 ```
 
-**STEP 6:**
+**STEP 7:**
 
 save the file with `STRG + O` and close it with `STRG + X`
 give execution permissions for the file:
@@ -76,7 +76,7 @@ give execution permissions for the file:
 chmod +x /home/git/test-hook/hooks/post-receive
 ```
 
-**STEP 7:**
+**STEP 8:**
 
 create a new directory with a normal git in it (i.e. test) that will hold our files/config etc. later:
 
@@ -86,7 +86,7 @@ cd /home/git/test/
 git init
 ```
 
-**STEP 8:**
+**STEP 9:**
 
 add remote repository address:
 
