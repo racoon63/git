@@ -1,0 +1,60 @@
+# Title
+
+Badges aren't necessary, but are a good way to provide quick information about your repository. And it looks more professional then just a plain repository. Badges in different styles:
+
+![](https://img.shields.io/badge/status-stable-brightgreen?style=plastic) ![](https://img.shields.io/badge/awesome-yes-blue?style=flat) ![](https://img.shields.io/badge/maintainer-plubach-orange?style=flat-square) ![](https://img.shields.io/badge/version-1.2.3-orange?style=for-the-badge)
+
+This is a placeholder for a paragraph of what this repository contains or what the app is doing.
+
+## Table of Contents
+
+* [Tech Stack](#tech-stack)
+* [Prerequisites](#prerequisites)
+* [Installation](#installation)
+* [Configuration](#configuration)
+* [Usage](#usage)
+* [Authors](#authors)
+* [License / Copyright](#license-/-copyright)
+
+## Tech Stack
+
+List all the tools and languages you used in this repository:
+
+|Tool / Language|Version|Description|Link|
+|---|---|---|---|
+|Terraform|v0.13.0|---|---|
+|Python|3.8+|---|---|
+|Golang|>1.13.1|---|---|
+|Ansible|2.7|---|---|
+|Google Cloud SDK|316.0.0|---|---|
+|kubectl|1.15.11|---|---|
+
+## Prerequisites
+
+Put everything in here, you need to run this repository. This can be installations of tools, service accounts, key generations and so on...
+
+## Installation
+
+Add here the steps that are necessary to install you code for example. This section can be equivalent to the [Prerequisites](#prerequisites) section.
+
+## Configuration
+
+If there are configurations necessary, you can add a description, further information about the config (e.g. path and name) and all the available options in here.
+
+## Usage
+
+Provide detailed instructions, examples and commands for use. Include screenshots if needed.
+
+```bash
+YOUR COMMAND HERE
+```
+
+## Authors
+
+Max Mustermann <max.mustermann@wabion.com>
+
+Helene Rischer <helene.rischer@seven-ate-nine.net>
+
+## License / Copyright
+
+Wabion GmbH &copy;
